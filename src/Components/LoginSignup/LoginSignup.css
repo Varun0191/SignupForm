@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 28px;
+    min-width: 280px;
+    gap: 24px;
+    border-radius: 8px;
+}
+
+.header {
+    color: #090011;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.inputs {
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(217, 211, 211);
+    padding: 6px;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+}
+
+.input svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+input, textarea {
+    text-align: left;
+    padding: 8px;
+    outline: none;
+    border: none;
+    color: #090011;
+    background-color: rgb(217, 211, 211);
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error
+{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button
+{
+    width: 100%;
+    cursor: pointer;
+    border: none; 
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:8px;
+    border-radius: 4px;
+}
+
+.but
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.but button.active
+{
+    background-color: blueviolet;
+    color: white;
+}
+.but button
+{
+    background-color: whitesmoke;
+    color: black;
+}
